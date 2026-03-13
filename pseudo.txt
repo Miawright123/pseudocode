@@ -1,0 +1,84 @@
+pseudo.txt
+
+scenario 1:
+
+set largest to 0 
+
+request user to input a positive number
+
+while the number is not equal to 0
+	if the number is greater than the largest number
+		set largest number to the input number
+	request the user to input another positive number
+
+print the largest number entered
+
+
+scenario 2:
+
+request user to input their name 
+
+store their name under the variable first_name
+	print first_name "Hello, world"
+
+
+scenario 3:
+
+set total number of integers to 0 
+
+set counter to one 
+
+while counter is less than one or equal to arbitrary number of integers
+	
+	input integer
+
+	add integer's value to the total number of integers
+
+calculate the arithmetic average of total number of integers 
+
+print the arithmetic average of arbitrary integers 
+
+
+scenario 3 -retry:
+
+set total value of integers to 0 
+
+set counter to 0 
+
+request user to input integer
+
+while the integer is not equal to 0 
+
+	add the integer's value to the total number of integers
+
+	add 1 to the counter
+
+	request another integer from the user
+
+calculate the arithmetic average by dividing total value of integers by counter
+
+print arithmetic average
+
+
+scenario 4:
+
+request the grocery list
+
+sort the grocery list in alphabetical order 
+
+for each product in the grocery list 
+	if the product is not yet bought 
+		print the product 
+
+
+scenario 5:
+
+Request user to input X and Y 
+
+set S to X + Y 
+
+set A to S divided by 2 
+
+set P to X multiplied by Y
+
+print S, A, P
